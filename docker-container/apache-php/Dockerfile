@@ -10,5 +10,3 @@ RUN sed -i "s/error_reporting = .*$/error_reporting = E_ERROR | E_WARNING | E_PA
 ENV APACHE_LOG_DIR /var/log/apache2
 EXPOSE 80
 # CMD composer install
-# CMD /etc/init.d/apache2 start
-# CMD ["-D", "FOREGROUND"]

@@ -1,1 +1,2 @@
-FROM tutum/mysql
+#FROM tutum/mysql
+FROM mysql
