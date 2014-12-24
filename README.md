@@ -37,3 +37,5 @@ persitant mysql data.
 `vagrant ssh` ssh to docker-host
 
 `docker ps` to check running container
+
+`mysql -uroot -h 192.168.36.10 -p"mypass"` to connect mysql
